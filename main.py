@@ -1,4 +1,4 @@
-L=[]
+'''L=[]
 n=int(input("How many elements you want to enter:"))
 print("Enter elements in a list\n")
 for i in range(1,n+1):
@@ -50,5 +50,36 @@ while True:
   elif ch==1:
     print("\nPROGRAM COMPLETED SUCCESSFULLY!!!")
   else:
-    print("\nInvalid Choice.")
+    print("\nInvalid Choice.")'''
+#WAP that takes two lists L and M of the same size and adds their elements together to form a new list N whose N whose elements are sums of the corresponding elements in L and M.
+'''L1=[]
+L2=[]
+n=int(input("How many elements you want to enter:"))
+print("Enter elements in a list 1\n")
+for i in range(n):
+  print("Enter element:",end=' ')
+  x=int(input())
+  L1.append(x)
+print("Enter elements in a list 2\n")
+for i in range(n):
+  print("Enter element:",end=' ')
+  x=int(input())
+  L2.append(x)
+N=[]
+for i in range(n):
+  N.append(L1[i]+L2[i])
+print("\nThe resulted list:",N)'''
+#WAP that rotates the elements of a list so that the element at the first index,moves to the second index,the element in the second index moves to the third index etc. and the element in the last index moves to the first index
+n=int(input("Enter the number of elements in the specified list:"))
+L=[]
+for i in range(n):
+  x=input("Enter the element to be added:")
+  L.append(x)
+print("The original list:",L)
+L[1],L[2],L[3],L[n]=p,q,r
+
+
+
+  
+
     
